@@ -40,5 +40,5 @@ java Ejercicio1Variables
 *Git y GitHub
 ## Bibliografia
 <img src="imagenes/img1.jpeg" width="240px">
-[apredejavaconejercicios](https://leanpub.com/aprendejava/c/MfglSnBRO4AM)
+[apredejavaconejercicios](https://leanpub.com/aprendejava)
 
