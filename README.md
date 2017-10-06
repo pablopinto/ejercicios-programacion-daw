@@ -39,6 +39,6 @@ java Ejercicio1Variables
 *Comandos de Linux
 *Git y GitHub
 ## Bibliografia
-<img src="imagenes/img1.jpg" width="240px">
+<img src="imagenes/img1.jpeg" width="240px">
 [apredejavaconejercicios](https://leanpub.com/aprendejava/c/MfglSnBRO4AM)
 
