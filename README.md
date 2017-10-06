@@ -34,11 +34,12 @@ Puedes ejecutar el programa mediante el siguiente comando `java`:
 java Ejercicio1Variables
 ```
 
-#Que se estudia en Programacion
-*Lenguaje de programacion Java
-*Comandos de Linux
-*Git y GitHub
-## Bibliografia
+#Que se estudia en Programacion :computer:
+*Lenguaje de programacion Java :coffee:
+*Comandos de Linux :penguin:
+*Git y GitHub :octocat:
+## Bibliografia :books:
+
 <img src="imagenes/img1.jpeg" width="240px">
 [apredejavaconejercicios](https://leanpub.com/aprendejava)
 
