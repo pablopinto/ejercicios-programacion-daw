@@ -28,8 +28,17 @@ Para compilar el programa , teclear lo siguiente :
 javac Ejercicio1Variables.java
 ```
 
-Puedes ejecutar el programa mediante el siguiente comando:
+Puedes ejecutar el programa mediante el siguiente comando `java`:
 
 ```
 java Ejercicio1Variables
 ```
+
+#Que se estudia en Programacion
+*Lenguaje de programacion Java
+*Comandos de Linux
+*Git y GitHub
+## Bibliografia
+<img src= "imagenes/img1.jpg width="240px">
+[apredejavaconejercicios](https://leanpub.com/aprendejava/c/MfglSnBRO4AM)
+
