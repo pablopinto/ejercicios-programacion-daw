@@ -1,5 +1,5 @@
 /*
- * Ejercicio14.java
+ * Ejercicio17.java
  * 
  * Copyright 2017 alumno <alumno@alumno-TOSHIBA>
  * 
@@ -21,32 +21,14 @@
  * 
  */
 
-		public class Ejercicio14 {
-	
-	public static void main (String args[]) {
-		System.out.print ("introduce el numero : " ) ;
-		String linea1 = System.console().readLine();
-		int n1 = Integer.parseInt(linea1);
-	    boolean primo =true;
-	    if ( (n1%2)==0){
-			System.out.print ("Par");
-			primo = false;
-		}
-		else for( int i = 2 ; i <n1 ; i++){
-			if ( (n1%i) == 0 ){			
-			}			
-		}
 
-		if (primo){
-			System.out.println ("Primo ");
-		}
-		if ( ( n1%5 == 0)){
-			System.out.print ("Divisible entre 5");
-			else System.out.print ("No es divisible entre 5");
+public class Ejercicio17 {
+	
+	public static void main (String[] args) {
+		System.out.print ( "Introduce una cifra : " );
+		String linea = System.console().readLine();
+		int num = Integer.parseInt(linea);
+		System.out.print ( num%10);
 	}
 }
-}
-	
-	
-
 

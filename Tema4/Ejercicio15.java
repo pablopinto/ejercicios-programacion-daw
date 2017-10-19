@@ -1,5 +1,5 @@
 /*
- * Ejercicio14.java
+ * Ejercicio15.java
  * 
  * Copyright 2017 alumno <alumno@alumno-TOSHIBA>
  * 
@@ -21,32 +21,20 @@
  * 
  */
 
-		public class Ejercicio14 {
-	
-	public static void main (String args[]) {
-		System.out.print ("introduce el numero : " ) ;
-		String linea1 = System.console().readLine();
-		int n1 = Integer.parseInt(linea1);
-	    boolean primo =true;
-	    if ( (n1%2)==0){
-			System.out.print ("Par");
-			primo = false;
-		}
-		else for( int i = 2 ; i <n1 ; i++){
-			if ( (n1%i) == 0 ){			
-			}			
-		}
 
-		if (primo){
-			System.out.println ("Primo ");
+public class Ejercicio15 {
+	
+	public static void main (String[] args) {
+		System.out.print ("Introduce simbolo para la piramide : " );
+		String c =System.console().readLine();
+		int altura = 5;
+		int filas = 9;
+		for(int altura = 5;altura !=0 ; i--){
+		while (filas != 0 ){
+			System.out.print (c);
+			filas--;
 		}
-		if ( ( n1%5 == 0)){
-			System.out.print ("Divisible entre 5");
-			else System.out.print ("No es divisible entre 5");
 	}
 }
 }
-	
-	
-
 
