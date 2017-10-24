@@ -40,12 +40,13 @@
 		if (primo){
 			System.out.println ("Primo ");
 		}
-		if ( ( n1%5 == 0)){
+		else if ( ( n1%5 == 0)){
 			System.out.print ("Divisible entre 5");
-			else System.out.print ("No es divisible entre 5");
+		}
+		else System.out.print ("No es divisible entre 5");
 	}
 }
-}
+
 	
 	
 

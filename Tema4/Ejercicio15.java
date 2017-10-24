@@ -21,20 +21,54 @@
  * 
  */
 
-
 public class Ejercicio15 {
-	
-	public static void main (String[] args) {
-		System.out.print ("Introduce simbolo para la piramide : " );
-		String c =System.console().readLine();
-		int altura = 5;
-		int filas = 9;
-		for(int altura = 5;altura !=0 ; i--){
-		while (filas != 0 ){
-			System.out.print (c);
-			filas--;
+
+	public static void main(String[] args) {
+		System.out.print("Introduce simbolo para la piramide : ");
+		String c = System.console().readLine();
+		System.out.print("Indica en que direccion va a ir tumbada la piramide : ");
+		System.out.print("1-.Punta hacia abajo ");
+		System.out.print("2-.Punta hacia arriba");
+		System.out.print("3-.Punta hacia derecha");
+		System.out.print("4-.Punta hacia izquierda ");
+		int menu = Integer.parseInt(System.console().readLine());
+		switch (menu) {
+		case 1:
+			System.out.print("+c+c+c+c+c+c+c+c+c");
+			System.out.print("  +c+c+c+c+c+c+c");
+			System.out.print("    +c+c+c+c+c+");
+			System.out.print("       +c+c+c");
+			System.out.print("         +c");
+
+		case 2:
+			System.out.print("         +c");
+			System.out.print("       +c+c+c");
+			System.out.print("    +c+c+c+c+c+");
+			System.out.print("  +c+c+c+c+c+c+c");
+			System.out.print("+c+c+c+c+c+c+c+c+c");
+
+		case 3:
+			System.out.print("+c+");
+			System.out.print("+c+c+");
+			System.out.print("+c+c+c");
+			System.out.print("+c+c+c+c");
+			System.out.print("+c+c+c+c+c");
+			System.out.print("+c+c+c+c+");
+			System.out.print("+c+c+c");
+			System.out.print("+c+c");
+			System.out.print("+c");
+
+		case 4:
+			System.out.print("        +c");
+			System.out.print("      +c+c");
+			System.out.print("    +c+c+c");
+			System.out.print("  +c+c+c+c");
+			System.out.print("+c+c+c+c+c");
+			System.out.print("  +c+c+c+c");
+			System.out.print("    +c+c+c");
+			System.out.print("      +c+c");
+			System.out.print("        +c");
+
 		}
 	}
 }
-}
-

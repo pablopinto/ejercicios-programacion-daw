@@ -20,13 +20,13 @@
  * 
  * 
  */
+import java.util.Scanner;
 
 public class Ejercicio2 {
 
 	public static void main(String args[]) {
-		System.out.print(" Introcuce hora ");
-		String linea = System.console().readLine();
-		int hora = Integer.parseInt(linea);
+		Scanner s = new Scanner(System.in);
+		int hora = Integer.parseInt(s.nextLine());
 
 		if ((hora >= 6) && (hora <= 12)) {
 			System.out.println(" Buenos dias ");
