@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ej14 {
+public class Ej15 {
 	
 	public static void main (String[] args) {
         Scanner s = new Scanner(System.in);
@@ -12,9 +12,10 @@ public class Ej14 {
         while(cont != pot){
            
             potencia = potencia*bas;
-            cont ++;
+            cont ++;  
+            System.out.println(+potencia);
         }
         
-        System.out.print(+potencia);
+      
 	}
 }
