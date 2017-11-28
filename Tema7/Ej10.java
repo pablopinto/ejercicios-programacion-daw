@@ -14,22 +14,29 @@ public class Ej10 {
         for ( int i = 0; i<20;i++){ // Creacion del Array
             int num = (int)(Math.random()*100);
             Arr[i]=num;
-            System.out.print(" " +Arr[i]);
         }
 
         System.out.println();
+        int iResultado = 0;
 
         for (int j =0 ; j< 20;j++){// Calculo pares
             if(Arr[j]%2 ==0){
-                contPar++;
-                Aux[j%20] = Arr[j];  
-                System.out.print( " "+Aux[j]);
+                Aux[iResultado++] = Arr[j]; 
             }
         }
 
-      
-      
-        
+        for (int k=0 ; k< 20;k++){// Calculo imppares
+            if(Arr[k]%2 !=0){
+                Aux[iResultado++] = Arr[k];  
+            }
+        }
 
+        for (int p=0; p <20;p++ ){
+            System.out.print( " "+Arr[p]);
+        }
+        System.out.println();
+        for (int p=0; p <20;p++ ){
+            System.out.print( " "+Aux[p]);
+        }
 } 
 }
