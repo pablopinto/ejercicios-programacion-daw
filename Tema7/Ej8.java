@@ -7,7 +7,7 @@ public class Ej8 {
         int[] Arr = new int[12];
         for ( int i = 1; i != 12;i++){
         System.out.println("Introduce la temperatura en el mes "+i);
-        temp = s.nextInt();
+        int temp = s.nextInt();
         Arr[i] = temp;
         }
     for(int j=0;j<12;j++){

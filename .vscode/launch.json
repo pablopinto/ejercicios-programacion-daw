@@ -49,6 +49,14 @@
         },
         {
             "type": "java",
+            "name": "Debug (Launch)-Ej14",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Ej14",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-Ej25",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -69,6 +77,14 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "mainClass": "Ej8",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Ej9",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "Ej9",
             "args": ""
         },
         {

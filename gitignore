@@ -1,6 +1,5 @@
 #Archivos compilados
-*.class
-
-*.rar
-*.zip
+* .class
+* .rar
+* .zip
 
