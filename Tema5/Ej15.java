@@ -10,9 +10,12 @@ public class Ej15 {
         int cont =1; 
         int potencia =1;
         while(cont != pot){
+           
             potencia = potencia*bas;
             cont ++;  
+            System.out.println(+potencia);
         }
-        System.out.println(+potencia); 
+        
+      
 	}
 }

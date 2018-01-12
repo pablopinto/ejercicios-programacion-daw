@@ -1,19 +1,36 @@
 package matematicas;
-import java.util.Scanner;
 
 public class Varios {
-    public static int potencia(int bas , int pot){
-        Scanner s = new Scanner(System.in);
-        System.out.println ( "Introduce la Base = " );
-        bas= s.nextInt();
-        System.out.println ("Introduce la potencia = ");
-        pot = s.nextInt();
-        int cont =1; 
-        int potencia =1;
-        while(cont != pot){
-            potencia = potencia*bas;
-            cont ++;  
-        }
-        return(+potencia); 
-	}
+   
+   public static long esCapicua (long num){
+
+   // Voltea el n�do.
+   long numero = num;
+   long volteado = 0;
+
+   while (numero > 0) {
+     volteado = (volteado * 10) + (numero % 10);
+     numero /= 10;
+   } 
+
+   if (volteado == num) {
+     System.out.println("El " + num + " es capicúa");
+   } else {
+     System.out.println("El " + num + " no es capicúa");
+   }
+
+   return num;
+ }
+
+
+
+  public static boolean esPrimo (int num ){
+  
+    for (int i = 2; i < num; i++) {
+      if (num % i == 0) {
+        return false;
+      }
+    }
+    return true;
+  }
 }
